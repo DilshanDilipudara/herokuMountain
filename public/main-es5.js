@@ -461,7 +461,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         _classCallCheck(this, SupplerService);
 
         this.http = http;
-        this.apiUrl = 'https://mountaintea.herokuapp.com/';
+        this.apiUrl = 'https://mountaintea.herokuapp.com';
       } //view Metrics
 
 
@@ -930,7 +930,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         _classCallCheck(this, UserService);
 
         this.http = http;
-        this.apiUri = 'https://mountaintea.herokuapp.com/';
+        this.apiUri = 'https://mountaintea.herokuapp.com';
       }
 
       _createClass(UserService, [{

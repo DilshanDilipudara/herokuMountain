@@ -224,7 +224,7 @@ __webpack_require__.r(__webpack_exports__);
 class SupplerService {
     constructor(http) {
         this.http = http;
-        this.apiUrl = 'https://mountaintea.herokuapp.com/';
+        this.apiUrl = 'https://mountaintea.herokuapp.com';
     }
     //view Metrics
     viewAllMetrics() {
@@ -522,7 +522,7 @@ __webpack_require__.r(__webpack_exports__);
 class UserService {
     constructor(http) {
         this.http = http;
-        this.apiUri = 'https://mountaintea.herokuapp.com/';
+        this.apiUri = 'https://mountaintea.herokuapp.com';
     }
     registerUser(user) {
         return this.http.post(`${this.apiUri}/users/register`, user);
