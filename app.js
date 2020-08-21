@@ -90,7 +90,7 @@ app.use('/vehical',vehical);
 app.use('/transportExpence',transportExpence);
 
 //Database connection mongoDB
-mongoose.connect("mongodb://Mountain:Mountain@1234@ds241268.mlab.com:41268/heroku_7ssbjdlt",{ useNewUrlParser: true ,useUnifiedTopology: true});
+mongoose.connect("mongodb://dilshan:D1234@ds241268.mlab.com:41268/heroku_7ssbjdlt",{ useNewUrlParser: true ,useUnifiedTopology: true});
 const connection = mongoose.connection;
 connection.once("open", () => {
   console.log("Connection esteblished successfully");
