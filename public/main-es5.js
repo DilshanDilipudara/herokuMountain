@@ -270,7 +270,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         _classCallCheck(this, AuthenticationService);
 
         this.http = http;
-        this.apiUri = 'http://localhost:3000';
+        this.apiUri = 'https://mountaintea.herokuapp.com';
         this.currentUserSubject = new rxjs__WEBPACK_IMPORTED_MODULE_2__["BehaviorSubject"](JSON.parse(localStorage.getItem('currentUser')));
         this.currentUser = this.currentUserSubject.asObservable();
       }
@@ -374,7 +374,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         _classCallCheck(this, RepService);
 
         this.http = http;
-        this.apiUri = 'http://localhost:3000';
+        this.apiUri = 'https://mountaintea.herokuapp.com';
       }
 
       _createClass(RepService, [{
@@ -461,7 +461,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         _classCallCheck(this, SupplerService);
 
         this.http = http;
-        this.apiUrl = 'http://localhost:3000';
+        this.apiUrl = 'https://mountaintea.herokuapp.com/';
       } //view Metrics
 
 
@@ -930,7 +930,7 @@ function _createClass(Constructor, protoProps, staticProps) { if (protoProps) _d
         _classCallCheck(this, UserService);
 
         this.http = http;
-        this.apiUri = 'http://localhost:3000';
+        this.apiUri = 'https://mountaintea.herokuapp.com/';
       }
 
       _createClass(UserService, [{
